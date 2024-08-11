@@ -7,10 +7,10 @@ const Home = () => {
   const router = useRouter();
 
   useEffect(() => {
-    router.push("/todos"); // Redirect to the Todo List page
+    router.push("/todos");
   }, [router]);
 
-  return null; // or a loading spinner
+  return null;
 };
 
 export default Home;

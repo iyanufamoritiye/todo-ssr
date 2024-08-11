@@ -18,7 +18,7 @@ const TodoListPage = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4 pb-3">Todo List</h1>
+      <h1 className="text-3xl font-bold mb-4 pb-3 text-center">Todo List</h1>
       <TodoForm />
 
       <div>
